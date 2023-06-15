@@ -1,20 +1,29 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      
+      <LogIn/>
+      <MainPage/>
+     
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+
+import LogIn from './components/LogIn.vue'
+import MainPage from './components/MainPage.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-  },
+    LogIn,
+    MainPage
+    
+},
 
   data: () => ({
     //
